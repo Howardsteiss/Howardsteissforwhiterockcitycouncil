@@ -1,0 +1,226 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howard Steiss for White Rock City Council</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+        }
+        /* Custom scroll-to-top button styles (optional) */
+        #scrollToTopBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed position */
+            bottom: 20px; /* Place at the bottom */
+            right: 20px; /* Place at the right */
+            z-index: 99; /* Ensure it's above other content */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: #3b82f6; /* Blue background */
+            color: white; /* White text */
+            cursor: pointer; /* Add a mouse pointer on hover */
+            padding: 10px 15px; /* Some padding */
+            border-radius: 50%; /* Rounded shape */
+            font-size: 20px; /* Increase font size */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #scrollToTopBtn:hover {
+            background-color: #2563eb; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
+        <nav class="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <a href="#home" class="text-3xl font-bold mb-3 sm:mb-0 rounded-lg p-2 hover:bg-blue-700 transition duration-300">Howard Steiss</a>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="text-lg font-medium hover:text-blue-200 transition duration-300 rounded-lg p-2 hover:bg-blue-700">About Me</a></li>
+                <li><a href="#priorities" class="text-lg font-medium hover:text-blue-200 transition duration-300 rounded-lg p-2 hover:bg-blue-700">My Priorities</a></li>
+                <li><a href="#contact" class="text-lg font-medium hover:text-blue-200 transition duration-300 rounded-lg p-2 hover:bg-blue-700">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-white py-16 md:py-24 text-center shadow-inner overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-gray-50 opacity-75 -skew-y-3 scale-110"></div>
+        <div class="relative z-10 container mx-auto px-4">
+            <!-- Candidate Photo -->
+            <img src="https://i.imgur.com/udipN4E.jpeg"
+                 alt="Howard Steiss - Candidate Photo"
+                 class="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg transform transition duration-300 hover:scale-105">
+
+            <h1 class="text-4xl md:text-6xl font-extrabold text-blue-800 leading-tight mb-6 animate-fade-in-down">
+                Howard Steiss <br class="md:hidden"> for White Rock City Council
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-8 animate-fade-in-up">
+                Dedicated to a Thriving, Safe, and Engaged White Rock.
+            </p>
+            <a href="#priorities" class="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                Learn About My Vision
+            </a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container mx-auto px-4 py-16 md:py-20">
+        <div class="bg-white rounded-xl shadow-xl p-8 md:p-12 lg:p-16">
+            <h2 class="text-4xl font-bold text-center text-blue-700 mb-8 pb-4 border-b-2 border-blue-200">About Me</h2>
+            <div class="prose lg:prose-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+                <p class="mb-4">My name is Howard Steiss, and I am seeking to fill the vacant seat on White Rock City Council. Having lived in this beautiful city for 4 years in the uptown neighborhood, I am deeply invested in its future and believe my common sense approach to making lives better, and problem solving can bring a fresh and pragmatic perspective to our city council.</p>
+                <p class="mb-4">I'm running because I believe in proactive community engagement and sustainable development that respects White Rock's unique character. Our city faces important challenges regarding housing, revitalizing our local business areas, crime prevention and ensuring our infrastructure supports our growing population. I am committed to working collaboratively with residents, businesses, and my fellow council members to find balanced solutions that benefit everyone.</p>
+                <p class="mb-4">During two years as the President of our 88 unit strata building at George and Thrift, I’ve shown a collaborative engagement with strata council members and residents, problem solving and project management skills which are transferable to effective council work in our city. I pledge to listen carefully, advocate transparently, and make decisions that truly reflect the needs and aspirations of White Rock residents.</p>
+                <p>I am ready to dedicate my energy to serving you and ensuring White Rock remains a vibrant, thriving, safe and welcoming community for generations to come.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Priorities Section -->
+    <section id="priorities" class="bg-blue-50 py-16 md:py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-blue-700 mb-10 pb-4 border-b-2 border-blue-300">My Priorities for White Rock</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Priority Card 1: Affordable Housing -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-blue-600 text-5xl mb-4 text-center">🏡</div>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Addressing Housing Needs</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Work towards diverse housing options that are accessible and affordable for families, seniors, and young professionals, while maintaining our city's unique charm.
+                    </p>
+                </div>
+
+                <!-- Priority Card 2: Local Business Revitalization -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-blue-600 text-5xl mb-4 text-center">🛍️</div>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Supporting Local Businesses</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Foster a thriving local economy by supporting small businesses, encouraging innovation, and promoting our vibrant uptown and waterfront areas.
+                    </p>
+                </div>
+
+                <!-- Priority Card 3: Sustainable Infrastructure -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-blue-600 text-5xl mb-4 text-center">🛠️</div>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Modernizing Infrastructure</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Invest in robust and sustainable infrastructure, including roads, public transit, and utilities, to support our growing population and enhance quality of life.
+                    </p>
+                </div>
+
+                <!-- Priority Card 4: Crime Prevention & Safety -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-blue-600 text-5xl mb-4 text-center">🛡️</div>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Ensuring Community Safety</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Implement proactive strategies for crime prevention and enhance public safety initiatives to ensure White Rock remains a secure and welcoming community.
+                    </p>
+                </div>
+
+                <!-- Priority Card 5: Environmental Stewardship -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-blue-600 text-5xl mb-4 text-center">🌳</div>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Protecting Our Environment</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Advocate for environmental policies that protect our natural beauty, promote green initiatives, and ensure a sustainable future for White Rock.
+                    </p>
+                </div>
+
+                <!-- Priority Card 6: Transparent Governance -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-blue-600 text-5xl mb-4 text-center">🤝</div>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Transparent & Engaged Governance</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Champion open communication, public participation, and accountable decision-making to build trust and ensure residents' voices are heard.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Support Section -->
+    <section class="bg-blue-800 text-white py-16 md:py-20 text-center shadow-inner">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-6">Ready for Common-Sense Leadership?</h2>
+            <p class="text-xl max-w-2xl mx-auto mb-8">
+                Your support is crucial to building a better White Rock. Connect with me to share your thoughts, volunteer, or learn more.
+            </p>
+            <a href="#contact" class="inline-block bg-white text-blue-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                Get In Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto px-4 py-16 md:py-20">
+        <div class="bg-white rounded-xl shadow-xl p-8 md:p-12 lg:p-16">
+            <h2 class="text-4xl font-bold text-center text-blue-700 mb-8 pb-4 border-b-2 border-blue-200">Contact & Connect</h2>
+            <div class="text-center text-gray-700 text-lg max-w-2xl mx-auto">
+                <p class="mb-6">I value hearing from the residents of White Rock. Please feel free to reach out with your questions, concerns, or ideas.</p>
+
+                <div class="mb-8">
+                    <p class="mb-2 font-semibold">Email:</p>
+                    <a href="mailto:steisshoward@gmail.com" class="text-blue-600 hover:underline">steisshoward@gmail.com</a>
+                </div>
+
+                <!-- Removed social media placeholders as requested -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p class="mb-2">&copy; 2025 Howard Steiss for White Rock City Council. All Rights Reserved.</p>
+            <p class="text-sm">Paid for by the Campaign to Elect Howard Steiss.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">⬆️</button>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll to Top Button functionality
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        scrollToTopBtn.addEventListener('click', function() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        });
+    </script>
+</body>
+</html>
